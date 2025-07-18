@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI usage Trends among Learners and Professional</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">AI Utilization Survey</h1>
+
+        <p id="description">This survey aims to gather insights on how individuals across educational and professional
+            fields are using ai tools in their daily activities .</p>
+    </header>
+    <hr>
+    <br>
+
+
+    <form id="survey-form">
+        <!-- NAME-->
+        <div>
+            <label id="name-label" for="name"> Full name:</label>
+            <input type="text" placeholder="First" name="name" id="name" required />
+            <label for="last"></label>
+            <input type="text" name="last" id="last" placeholder="Last" required>
+        </div>
+        <br>
+
+        <!--EMAIL-->
+        <div>
+            <label id="email-label" for="email"> Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        </div>
+        <br>
+
+        <!--AGE---->
+        <div>
+            <label id="number-label" for="numer"> Age:</label>
+            <input type="number" name="age" id="numer" min="10" max="99" placeholder="Enter your Age" required>
+        </div>
+        <br>
+
+        <!--OCCUPATION-->
+        <div>
+            <label for="Occupation"> Occupation:</label>
+            <select id="Occupation" required>
+                <option value=""> --Select Occupation--</option>
+                <option value="Software Developer"> Software Developer</option>
+                <option value=" Student"> Student</option>
+                <option value="Educator"> Educator</option>
+                <option value=" Homemaker">Marketing/Finance</option>
+                <option value=" Data Analyst"> Data Analyst</option>
+                <option value=" Others"> Others</option>
+            </select>
+        </div>
+        <br>
+
+        <!-- RADIO-->
+        <div>
+            <p> Do you use AI tools ?</p>
+            <label for="yes"> Yes</label>
+            <input type="radio" name="use" id=" yes" value="yes" required>
+            <label for=" no"> No</label>
+            <input type="radio" name="use" value="no" id="no">
+        </div>
+        <br>
+
+        <!--CHECKBOX-->
+        <div>
+            <p> Which AI you have used ?</p>
+            <ul>
+                <li><input type="checkbox" name="ai tools" id="chatgpt" value="chatgpt"><label for="chatgpt">
+                        ChatGpt</label></li>
+
+                <li> <input type="checkbox" name="ai tools" id="grok" value="grok"><label for="grok"> Grok</label>
+                </li>
+
+                <li><input type="checkbox" name="ai tools" id="perplexity" value="perplexity">
+                    <label for="perplexity"> Perplexity</label>
+                </li>
+
+                <li><input type="checkbox" name="ai tools " id="claude" value="claude">
+                    <label for="claude">Claude</label>
+                </li>
+                <li> <input type="checkbox" name="ai tools" id="others" value="others">
+                    <label for="others"> Others</label>
+                </li>
+
+            </ul>
+        </div>
+        <br>
+        <!--DROPDOWN-->
+        <div>
+            <label for="dropdown">What do you use AI tools for the most?</label>
+            <select id="dropdown" required>
+                <option value"">-- Usecase--</option>
+                <option value="learning">Learning / Research</option>
+                <option value="coding">Programming Help</option>
+                <option value="writing">Writing / Content Creation</option>
+                <option value="automation">Work Automation</option>
+                <option value="fun">Fun / Personal Use</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label id="number-label" for="number"> Hows many days a week you use AI?</label>
+            <input type="number" name="frequency" id="number-label" min="0" max="7">
+        </div>
+        <br>
+        <!--TEXTAREA-->
+        <div>
+            <label for="feedback">Your thoughts on future of AI</label>
+            <br>
+            <textarea rows="3" col="3" placeholder="Share your opinion"></textarea>
+        </div>
+        <br>
+        <br>
+
+
+
+        <button id="Submit">Submit</button>
+        <button id="reset"> Reset</button>
+
+    </form>
+</body>
+
+
+
+</html>
