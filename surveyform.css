@@ -1,0 +1,86 @@
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(18, 18, 18);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #2c3e50;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #1e2a38;
+    padding: 30px 20px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+
+
+
+#title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#description {
+    font-size: 1.1em;
+    color: #dbe3ec;
+ }
+ 
+    form {
+        
+        padding: 20px;
+        max-width: 600px;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+
+      div{
+        background-color: #ccc;
+        padding: 20px;
+        border-radius: 7PX;
+            transition: transform 0.4s ease;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+             
+          
+        div:hover {
+            transform: scale(1.07);} 
+            
+          @medi(max-width:600px){ body{ background-color:lightblue}}
+          
+      
