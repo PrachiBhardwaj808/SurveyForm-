@@ -3,3 +3,5 @@
 - Practiced creating structured web pages with HTML
 - Applied basic CSS styling for better UI design
 - Strengthened frontend fundamentals
+---
+Tech stack used : HTML ,CSS
